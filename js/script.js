@@ -15,3 +15,14 @@ window.onscroll = () =>{
    profile.classList.remove('active');
    navbar.classList.remove('active');
 }
+
+/*function for loader*/
+function loader(){
+   document.querySelector('.loader').style.display = 'none';
+}
+
+function fadeOut(){
+   setInterval(loader, 2000);
+}
+
+window.onload = fadeOut;
