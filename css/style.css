@@ -233,7 +233,7 @@ section{
 
 .footer .credit span{
     color: var(--yellow);
-    text-transform: lowercase;
+   
 }
 
 /* loader css*/
