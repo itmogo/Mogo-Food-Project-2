@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>::Mogo F&R-Home</title>
+    <title>::Mogo F&R-Home Page</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 
     <!--font awesome cdn link-->
     <link
@@ -57,7 +59,9 @@
     <!--home section starts-->
 
     <section class="home">
+
       <div class="swiper home-slider">
+
         <div class="swiper-wrapper">
           <!--image 1-->
           <div class="swiper-slide slide">
@@ -67,7 +71,7 @@
               <a href="menu.html" class="btn">see menus</a>
             </div>
             <div class="image">
-              <img src="images/home-img-1.png" alt="" />
+              <img src="images/home-img-1q.png" alt="" />
             </div>
           </div>
 
@@ -95,6 +99,9 @@
             </div>
           </div>
         </div>
+
+        <div class="swiper-pagination"></div>
+
       </div>
     </section>
     <!--home section ends-->
@@ -141,7 +148,7 @@
 
     <!--footer-->
 
-    /* loader*/
+    <!--loader-->>
 
     <div class="loader">
       <img src="images/loader.gif" alt="" />
@@ -151,5 +158,23 @@
 
     <!--custom js file link-->
     <script src="js/script.js"></script>
+
+
+   <!--swiper section-->>
+<script>
+
+var swiper = new Swiper(".home-slider", {
+        loop: true,       
+        grabCursor: true,
+        effect: "flip",
+    //pagination
+    pagination:{
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+    });
+
+</script>
+
   </body>
 </html>
