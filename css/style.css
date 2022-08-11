@@ -347,6 +347,7 @@ section{
 
  .products .box-container .box .cat:hover{
     color: var(--yellow);
+    text-decoration: underline;
  }
 
  .products .box-container .box .name{
@@ -397,10 +398,40 @@ section{
  }
 
 
+/* about css*/
 
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
+.about .row .image{
+    flex: 1 1 40rem;
+}
 
+.about .row .image img{
+    width: 100%;
+}
 
+.about .row .content{
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.about .row .content p{
+    padding: 1rem 0;
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
 
 
 
@@ -557,5 +588,13 @@ section{
 
         .title{
             font-size: 3rem;
+        }
+
+        .header .flex .logo{
+            font-size: 2rem;
+        }
+
+        .products .box-container{
+            grid-template-columns: 1fr;
         }
 }
