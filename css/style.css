@@ -397,6 +397,40 @@ section{
     border: var(--border);
  }
 
+/* about heading css*/
+
+.heading{
+    background-color: var(--black);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-flow: column;
+    min-height: 20rem;
+}
+
+.heading h3{
+    font-size: 4rem;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.heading p a{
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.heading p span{
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.heading p a:hover{
+    color: var(--white);
+}
+
+
 
 /* about css*/
 
