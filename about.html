@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>::Mogo F&R-About</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
     <!--font awesome cdn link-->
     <link
@@ -54,41 +57,64 @@
       </section>
     </header>
 
-
-  <div class="heading">
-    <h3>about us</h3>
-    <p> <a href="index.html">home </a> <span>/ about</span> </p>
-  </div>
-
-  <section class="about">
-
-    <div class="row">
-      <div class="image">
-        <img src="images/about-img.svg" alt="">
-      </div>
-
-      <div class="content">
-        <h3>why choose us?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus reiciendis, veniam dicta illum laboriosam voluptatem corporis totam dolorem assumenda nulla laborum aperiam tenetur saepe blanditiis perferendis doloremque ipsa maxime deserunt?</p>
-        <a href="menu.html" class="btn">our menu</a>
-      </div>
-
+    <div class="heading">
+      <h3>about us</h3>
+      <p><a href="index.html">home </a> <span>/ about</span></p>
     </div>
 
-  </section>
+    <section class="about">
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.svg" alt="" />
+        </div>
 
+        <div class="content">
+          <h3>why choose us?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+            reiciendis, veniam dicta illum laboriosam voluptatem corporis totam
+            dolorem assumenda nulla laborum aperiam tenetur saepe blanditiis
+            perferendis doloremque ipsa maxime deserunt?
+          </p>
+          <a href="menu.html" class="btn">our menu</a>
+        </div>
+      </div>
+    </section>
 
+    <!--steps section-->
+    <section class="steps">
+      <h1 class="title">3 simple steps</h1>
 
+      <div class="box-container">
+        <div class="box">
+          <img src="images/step-1.png" alt="" />
+          <h3>select food</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nam
+             .</p>
+        </div>
 
+        <!--image 2-->
+        <div class="box">
+          <img src="images/step-2.png" alt="" />
+          <h3>30 minutes delivery</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nam
+            .
+          </p>
+        </div>
 
-
-
-
-
-
-    
-
-   
+        <!--image 3-->
+        <div class="box">
+          <img src="images/step-3.png" alt="" />
+          <h3>enjoy your food!!!!</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nam
+            .
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!--footer section starts-->
 
@@ -143,22 +169,18 @@
     <!--custom js file link-->
     <script src="js/script.js"></script>
 
-
-   <!--swiper section-->>
-<script>
-
-var swiper = new Swiper(".home-slider", {
-        loop: true,       
+    <!--swiper section-->>
+    <script>
+      var swiper = new Swiper(".home-slider", {
+        loop: true,
         grabCursor: true,
         effect: "flip",
-    //pagination
-    pagination:{
-        el: '.swiper-pagination',
-        clickable: true,
+        //pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-    });
-
-</script>
-
+      });
+    </script>
   </body>
 </html>
